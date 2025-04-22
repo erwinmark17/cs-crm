@@ -136,9 +136,6 @@ export default function ProductivitySpecialist() {
         <h3 className="productivity-chart-title">
           Productivity Chart - ({selectedEmployee || "No Selection"})
         </h3>
-        <a href="#" className="download-link">
-          DOWNLOAD CHART
-        </a>
       </div>
 
       <ResponsiveContainer width="100%" height={315}>

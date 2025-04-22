@@ -9,13 +9,12 @@
 
 .cards-wrapper {
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 25px;
-    flex-wrap: wrap;
 }
 
 .account-card {
-    width: 292px;  
     height: 80px;
     border-radius: 8px;
     display: flex;

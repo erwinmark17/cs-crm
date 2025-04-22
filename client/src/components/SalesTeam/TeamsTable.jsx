@@ -10,7 +10,7 @@ export default function TeamsTable() {
   const [page, setPage] = useState(0);
   const rowsPerPage = 7; 
 
-  useEffect(() => {
+  useEffect(() => { 
     const fetchEmployees = async () => {
       try {
         const response = await axios.get(`${API_URL}/api/auth/employees`);
